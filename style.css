@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0
+}
+.nav{
+  background-color: whitesmoke;
+  width:100vw;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  box-shadow: 0.5px 0.5px 10px black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.nav > p{
+  margin-left: 2rem
+}
+
+.menu{
+  margin-right: 2rem;
+  /* border: 2px solid red; */
+  list-style-type: none;
+  display: inline-flex;
+  justify-content: flex-end;
+  gap: 6rem;
+}
+.nav a{
+  padding: 0.4rem;
+}
+.nav a:hover{
+  cursor: pointer;
+  background-color: lightgrey;
+}
+.nav span{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:660px){
+    .nav ul{
+      display: none;
+    }
+    .nav span{
+      display: block;
+      position: absolute;
+      top: 1.5rem;
+      left: 90vw;
+    }
+}
