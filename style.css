@@ -32,8 +32,21 @@ body{
   cursor: pointer;
   background-color: lightgrey;
 }
-.nav span{
+#minus{
   display: none;
+}
+.line{
+  width: 3rem;
+  height: 2.5rem;
+  background-color: aqua;
+  position: relative;
+  top: 0.2rem;
+  left: 30vw;
+  display: none;
+}
+.lines{
+  width: 2rem;
+  border: 1.5px solid rgb(11, 11, 11);
 }
 
 
@@ -55,11 +68,19 @@ body{
 
 
 @media (max-width:660px){
+  .nav{
+    /* margin-right: 0; */
+    box-shadow: 0.5px 0 10px black;
+  }
     .nav ul{
       display: none;
     }
-    .nav span{
+    .line{
       display: block;
+    }
+   
+   #minus{
+      /* display: block; */
       position: absolute;
       top: 1.5rem;
       left: 90vw;
