@@ -14,7 +14,8 @@ body{
   grid-template-columns: 1fr 1fr;
 }
 .nav > p{
-  margin-left: 2rem
+  margin-left: 2rem;
+  /* text-align: left; */
 }
 
 .menu{
@@ -43,6 +44,9 @@ body{
   top: 0.2rem;
   left: 30vw;
   display: none;
+}
+.line:hover{
+  cursor: pointer;
 }
 .lines{
   width: 2rem;
