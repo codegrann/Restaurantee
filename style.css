@@ -32,8 +32,8 @@ body{
   cursor: pointer;
   background-color: lightgrey;
 }
-#minus{
-  display: none;
+#times{
+  /* display: none; */
 }
 .line{
   width: 3rem;
@@ -79,8 +79,10 @@ body{
       display: block;
     }
    
-   #minus{
+   #times{
       /* display: block; */
+      font-size: 3rem;
+      font-weight: 500;
       position: absolute;
       top: 1.5rem;
       left: 90vw;
