@@ -32,9 +32,7 @@ body{
   cursor: pointer;
   background-color: lightgrey;
 }
-#times{
-  /* display: none; */
-}
+
 .line{
   width: 3rem;
   height: 2.5rem;
@@ -47,6 +45,14 @@ body{
 .lines{
   width: 2rem;
   border: 1.5px solid rgb(11, 11, 11);
+}
+#times{
+  display: none;
+  font-size: 3rem;
+  font-weight: 500;
+  position: relative;
+  top: 1vh;
+  left:82vw;
 }
 
 
@@ -79,12 +85,5 @@ body{
       display: block;
     }
    
-   #times{
-      /* display: block; */
-      font-size: 3rem;
-      font-weight: 500;
-      position: absolute;
-      top: 1.5rem;
-      left: 90vw;
-    }
+   
 }
