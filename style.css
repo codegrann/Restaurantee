@@ -51,8 +51,8 @@ body{
   font-size: 3rem;
   font-weight: 500;
   position: relative;
-  top: 1vh;
-  left:82vw;
+  /* top: 1vh; */
+  left:40vw;
 }
 
 
@@ -81,9 +81,31 @@ body{
     .nav ul{
       display: none;
     }
+    nav p a{
+      font-size: 8pt;
+    }
+    nav li{
+      margin-bottom: 0.5rem;
+    }
+    nav li:nth-of-type(1){
+      margin-top: 0.5rem;
+    }
     .line{
       display: block;
     }
+    .menu{
+      position: absolute;
+      left: 55vw;
+      background: #cababa;
+      width: 10rem;
+      height: 5rem;
+
+    }
    
    
+}
+@media(min-width:365px) and  (max-width:660px){
+  .line{
+    left: 35vw;
+  }
 }
