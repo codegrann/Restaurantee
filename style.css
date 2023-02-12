@@ -8,6 +8,8 @@ body{
   background-color: whitesmoke;
   width:100vw;
   padding-top: 0.3rem;
+  position: fixed;
+  top: 0;
   padding-bottom: 0.3rem;
   box-shadow: 0.5px 0.5px 10px black;
   display: grid;
@@ -56,7 +58,19 @@ body{
 }
 
 #home{
-  background-image: url(Image/);
+  background-image: url(images/hamburger.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 3.9rem;
+  width: 100vw;
+  height: 100vh;
+}
+
+#about{
+  width: 30vw;
+  height: 30vh;
+  background-color: black;
 }
 
 
