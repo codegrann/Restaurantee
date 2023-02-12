@@ -66,6 +66,17 @@ body{
   width: 100vw;
   height: 100vh;
 }
+#home_img{
+  display: none;
+}
+#home p{
+  position:relative;
+  top: 75vh;
+  font-size: 24pt;
+  /* color: grey; */
+  opacity: 0.5;
+  margin-left: 2vw;
+}
 
 #about{
   width: 30vw;
@@ -90,6 +101,20 @@ body{
 
 
 
+@media(max-width:850px){
+  #home{
+    background: none;
+  }
+  #home_img{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  #home p{
+    position: absolute;
+    top: 17vh;
+  }
+}
 
 @media (max-width:660px){
   .nav{
