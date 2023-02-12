@@ -29,6 +29,7 @@ body{
   display: inline-flex;
   justify-content: flex-end;
   gap: 6rem;
+  padding-left: 0.3rem;
 }
 .nav a{
   padding: 0.4rem;
@@ -52,14 +53,16 @@ body{
   border: 1.5px solid rgb(11, 11, 11);
 }
 #times{
-  display: none;
-  font-size: 3rem;
+  /* display: block; */
+  font-size: 2rem;
   font-weight: 500;
   position: relative;
-  /* top: 1vh; */
-  left:40vw;
+  left: 85%;
+  /* top: 0; */
 }
 
+
+/* HOME SECTION */
 #home{
   background-image: url(images/hamburger.jpg);
   background-size: cover;
@@ -80,6 +83,9 @@ body{
   opacity: 0.5;
   margin-left: 2vw;
 }
+
+
+/* ABOUT SECTION */
 
 #about{
  display: flex;
@@ -177,8 +183,8 @@ h3{
       position: absolute;
       left: 55vw;
       background: #cababa;
-      width: 10rem;
-      height: 5rem;
+      width: 8rem;
+      height: auto;
 
     }
    #about{
