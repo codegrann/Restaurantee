@@ -53,7 +53,7 @@ body{
   border: 1.5px solid rgb(11, 11, 11);
 }
 #times{
-  /* display: block; */
+  display: none;
   font-size: 2rem;
   font-weight: 500;
   position: relative;
@@ -169,23 +169,27 @@ h3{
     }
     nav p a{
       font-size: 8pt;
+      margin-left: -1.5rem;
     }
     nav li{
       margin-bottom: 0.5rem;
     }
     nav li:nth-of-type(1){
-      margin-top: 0.5rem;
+      margin-top: -1.5rem;
     }
     .line{
       display: block;
     }
     .menu{
       position: absolute;
-      left: 55vw;
+      left: 50vw;
       background: #cababa;
       width: 8rem;
       height: auto;
 
+    }
+    #times{
+      display: block;
     }
    #about{
     flex-direction: column;
@@ -203,5 +207,11 @@ h3{
 @media(min-width:390px) and  (max-width:660px){
   .line{
     left: 35vw;
+  }
+}
+@media(min-width:270px) {
+  .menu{
+    /* position: absolute; */
+    /* left: 55vw; */
   }
 }
