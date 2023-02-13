@@ -83,7 +83,9 @@ body{
   opacity: 0.5;
   margin-left: 2vw;
 }
-
+section{
+  margin-top: 3rem;
+}
 
 /* ABOUT SECTION */
 
@@ -93,7 +95,7 @@ body{
  flex-shrink: 1;
  /* flex-wrap: wrap; */
  column-gap: 2rem;
- margin-top: 3rem;
+ /* margin-top: 3rem; */
 
 }
 #about div:nth-of-type(1){
@@ -133,7 +135,7 @@ body{
   display: flex;
   justify-content: center;
   column-gap: 2rem;
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
 }
 #menu div:nth-of-type(1){
   width: 40vw;
@@ -161,6 +163,7 @@ body{
   margin-top: 0;
   margin-bottom: 1.5rem;
   font-size: calc(15px-1vw);
+  opacity: 0.7;
 }
 
 
