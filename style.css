@@ -131,8 +131,14 @@ h3{
   display: flex;
   justify-content: center;
 }
-#menu div{
-  width: 35vw;
+#menu div:nth-of-type(1){
+  width: 40vw;
+}
+#menu div:nth-of-type(2){
+  width: 30vw;
+}
+#menu img{
+  width: 100%;
 }
 
 
