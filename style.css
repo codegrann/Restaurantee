@@ -126,6 +126,13 @@ h3{
   opacity: 0.5;
 }
 
+/* MENU SECTION */
+#menu{
+  display: flex;
+  justify-content: center;
+}
+
+
 
 
 
