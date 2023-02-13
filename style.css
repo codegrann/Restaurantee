@@ -131,7 +131,9 @@ h3{
   display: flex;
   justify-content: center;
 }
-
+#menu div{
+  width: 35vw;
+}
 
 
 
