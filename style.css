@@ -126,10 +126,14 @@ body{
   opacity: 0.5;
 }
 
+
+
 /* MENU SECTION */
 #menu{
   display: flex;
   justify-content: center;
+  column-gap: 2rem;
+  margin-top: 3rem;
 }
 #menu div:nth-of-type(1){
   width: 40vw;
@@ -142,6 +146,20 @@ body{
   width: 100%;
   border-radius: 2.5%;
   box-shadow: 3px 3px 10px gray;
+}
+#menu h2{
+  font-size: 1.8rem;
+}
+#menu h3{
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 0.7rem;
+}
+.p_blur{
+  margin-left: 1rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: calc(15px-1vw);
 }
 
 
