@@ -169,10 +169,25 @@ section{
 /* FOOTER SECTION */
 #footer{
   width: 100vw;
-  height: 30vh;
+  height: 25vh;
   background-color: grey;
+  display: flex;
+  /* justify-content: space-around; */
+  /* column-gap: 10rem; */
 }
-
+#footer div{
+  border: 2px solid red;
+  width: 30vw;
+}
+#footer div:nth-of-type(1) i{
+  /* text-align: center; */
+  margin-left: 1rem;
+}
+#footer div:nth-of-type(2){
+  margin-left: 5rem;
+  /* text-align: center; */
+  width: 40vw;
+}
 
 
 
