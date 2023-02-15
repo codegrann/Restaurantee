@@ -194,8 +194,10 @@ section{
   margin-top: 0.3rem;
   color: rgb(11, 29, 15);
 }
-#footer p{
-  display: inline;
+.icon_txt{
+  color: black;
+  text-decoration: none;
+  margin-left: 0.3rem;
 }
 
 
