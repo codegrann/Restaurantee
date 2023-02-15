@@ -172,11 +172,12 @@ section{
   height: auto;
   background-color: grey;
   display: flex;
+  margin-top: 3rem;
   /* justify-content: space-around; */
   /* column-gap: 10rem; */
 }
 #footer div{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 40vw;
 }
 #footer div:nth-of-type(1) i{
