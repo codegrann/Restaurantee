@@ -296,6 +296,10 @@ section{
     width: 50vw;
     /* order: 0; */
    }
+ 
+   .icon_txt{
+    display: none;
+   }
    
 }
 
