@@ -190,7 +190,7 @@ section{
 }
 
 .icon{
-  font-size: 24pt;
+  font-size: 22pt;
   margin-top: 0.3rem;
   color: rgb(11, 29, 15);
 }
@@ -198,6 +198,7 @@ section{
   color: black;
   text-decoration: none;
   margin-left: 0.3rem;
+  font-size: 12pt;
 }
 
 
