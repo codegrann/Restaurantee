@@ -13,6 +13,7 @@ body{
   position: fixed;
   top: 0;
   padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
   box-shadow: 0.5px 0.5px 10px black;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -32,11 +33,18 @@ body{
   padding-left: 0.3rem;
 }
 .nav a{
-  padding: 0.4rem;
+  padding: 0.4rem 0.7rem;
+  text-decoration: none;
+  color: rgb(112, 110, 114);
+  transition: background 200ms linear;
 }
 .nav a:hover{
   cursor: pointer;
-  background-color: lightgrey;
+  background-color: rgb(193, 184, 184);
+
+}
+#welcome:hover{
+  background: none;
 }
 
 .line{
