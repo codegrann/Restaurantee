@@ -201,7 +201,15 @@ section{
   font-size: 12pt;
 }
 
-
+#projects{
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  /* grid-template-rows: 2; */
+}
+#projects h4{
+  grid-column: 3;
+  margin-left: -6rem;
+}
 
 
 
@@ -315,5 +323,11 @@ section{
   }
 }
 @media(max-width:390px) {
- 
+  #projects a{
+    grid-column: 3;
+    margin-left: -8rem;
+  }
+  #projects h4{
+    margin-left: -8rem;
+  }
 }
