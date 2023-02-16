@@ -5,15 +5,17 @@ body{
   margin: 0;
   overflow-x: hidden;
   font-family: /*'Franklin Gothic Medium', */'Arial Narrow', Arial, sans-serif;
+  /* margin-top: 4rem; */
 }
 .nav{
   background-color: whitesmoke;
   width:100vw;
+  /* height: auto; */
   padding-top: 0.3rem;
   position: fixed;
   top: 0;
   padding-bottom: 0.3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   box-shadow: 0.5px 0.5px 10px black;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -92,7 +94,7 @@ body{
   margin-left: 2vw;
 }
 section{
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
 }
 
 /* ABOUT SECTION */
@@ -103,7 +105,7 @@ section{
  flex-shrink: 1;
  /* flex-wrap: wrap; */
  column-gap: 2rem;
- /* margin-top: 3rem; */
+ padding-top: 5rem;
 
 }
 #about div:nth-of-type(1){
@@ -143,7 +145,7 @@ section{
   display: flex;
   justify-content: center;
   column-gap: 2rem;
-  /* margin-top: 3rem; */
+  padding-top: 5rem;
 }
 #menu div:nth-of-type(1){
   width: 40vw;
