@@ -36,7 +36,7 @@
         height: 20vh;
       }
 
-      input[type='button']{
+      input[type='button'], .input{
         background: #2443f2;
         border: none;
         border-radius: 10px;
@@ -61,7 +61,7 @@
           border-right: none;
           border-bottom: 2px solid rgb(144, 140, 140);
         }
-
+       
         textarea{
           grid-column: 1/2;
       }
@@ -107,11 +107,12 @@
 
   <fieldset>
     <input type="text" name="username" placeholder="username" required min="4">
-    <input type="email" name="email" placeholder="abc@gmail.com">
-    <input type="date" name="date_sent">
+    <input type="email" name="email" placeholder="abc@gmail.com" required>
+    <input type="date" name="date_sent" required>
     <input type="number" name="contact" placeholder="+254..." minlength="10">
     <textarea name="message" id="" placeholder="Your message goes here..."></textarea><br>
     <input type="button" value="submit" name="submit">
+    <button class="input">Submit</button>
   </fieldset>
 
 </form>
