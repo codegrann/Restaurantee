@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/ae1469d9c0.js"></script>
     <title>Contact Us</title>
+    <style>
+      body{
+        
+      }
+      form{
+        display: grid ;
+        grid-template-columns: 60vw;
+        grid-template-rows: auto;
+      }
+    </style>
 </head>
 <body>
     <nav class="nav">
@@ -25,8 +35,25 @@
       </nav>
 
 <!-- FOOTER SECTION -->
-<form action="" method="POST">
-  <div></div>
+<form action="" method="POST" style="margin-top: 5rem;">
+  <div id="form_caption">
+    <h2>Contact</h2>
+    <p>We offer full-service catering for any event, large or small. We understand your needs
+      and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.
+      Do not hesitate to contact us.</p>
+    <p>Catering Service, 42nd Living St, 43043 New York, NY</p>
+    <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or
+      you can send us a message here:</p>
+  </div>
+
+  <fieldset>
+    <input type="text" name="username" placeholder="username" required min="4">
+    <input type="email" name="email" placeholder="abc@gmail.com"><br>
+    <input type="date" name="date_sent">
+    <input type="number" name="contact" placeholder="+254..." minlength="10"><br>
+    <textarea name="message" id="" cols="30" rows="10" placeholder="Your message goes here..."></textarea>
+    <input type="button">
+  </fieldset>
 
 </form>
 
