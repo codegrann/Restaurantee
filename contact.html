@@ -41,7 +41,7 @@
         border: none;
         border-radius: 10px;
         color: antiquewhite;
-        font-size: 20pt;
+        font-size: calc(100% + 5px);
       }
 
 
@@ -52,10 +52,16 @@
         fieldset{
           /* display: grid; */
           grid-template-columns: 100%;
+          border: none;
         }
         input{
           height: 10vh;
+          border-top:0;
+          border-left: 0;
+          border-right: none;
+          border-bottom: 2px solid rgb(144, 140, 140);
         }
+
         textarea{
           grid-column: 1/2;
       }
