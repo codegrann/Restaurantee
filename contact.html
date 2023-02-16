@@ -20,6 +20,25 @@
         font-size: calc(6pt + 1vw);
         line-height: 1.2;
       }
+      fieldset{
+        display: grid;
+        grid-template-columns: repeat(2, 45%);
+        grid-template-rows: 4;
+        justify-content: space-around;
+        gap: 1rem;
+      }
+      input{
+        /* margin-top: 0; */
+        height: 4rem;
+      }
+
+
+
+      @media(max-width:390px){
+        form{
+         grid-template-columns: 80vw;
+        }
+      }
     </style>
 </head>
 <body>
@@ -52,11 +71,11 @@
 
   <fieldset>
     <input type="text" name="username" placeholder="username" required min="4">
-    <input type="email" name="email" placeholder="abc@gmail.com"><br>
+    <input type="email" name="email" placeholder="abc@gmail.com">
     <input type="date" name="date_sent">
-    <input type="number" name="contact" placeholder="+254..." minlength="10"><br>
-    <textarea name="message" id="" cols="30" rows="10" placeholder="Your message goes here..."></textarea>
-    <input type="button">
+    <input type="number" name="contact" placeholder="+254..." minlength="10">
+    <textarea name="message" id="" placeholder="Your message goes here..."></textarea><br>
+    <input type="button" value="submit" name="submit">
   </fieldset>
 
 </form>

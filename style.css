@@ -340,7 +340,4 @@ body{
   #projects h4{
     margin-left: -8rem;
   }
-  form{
-    grid-template-columns: 80vw;
-  }
 }
