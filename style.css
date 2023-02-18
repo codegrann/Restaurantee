@@ -280,7 +280,7 @@ body{
     .menu{
       position: absolute;
       left: 15vw;
-      background: #cababa;
+      background: rgb(158, 183, 172);
       width: 8rem;
       height: auto;
 
@@ -327,16 +327,7 @@ body{
   
 }
 
-@media(min-width:390px) and  (max-width:660px){
-  .line{
-    /* left: 35vw; */
-  }
-  .menu{
-    width: ;
-    background-color: green;
-    /* left: 50vw; */
-  }
-}
+
 @media(max-width:390px) {
   #projects a{
     grid-column: 3;
@@ -348,6 +339,7 @@ body{
 }
 @media(min-width:270px) /*and (max-width:300px)*/{
   .menu{
+    width: 40vw;
     left: 50vw;
   }
 }
