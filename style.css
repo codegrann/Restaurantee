@@ -278,7 +278,7 @@ body{
       display: block;
     }
     .menu{
-      position: relative;
+      position: absolute;
       left: 15vw;
       background: #cababa;
       width: 8rem;
@@ -329,10 +329,12 @@ body{
 
 @media(min-width:390px) and  (max-width:660px){
   .line{
-    left: 35vw;
+    /* left: 35vw; */
   }
   .menu{
-    left: 45%;
+    width: ;
+    background-color: green;
+    /* left: 50vw; */
   }
 }
 @media(max-width:390px) {
@@ -344,8 +346,8 @@ body{
     margin-left: -8rem;
   }
 }
-@media(min-width:270px) and (max-width:300px){
+@media(min-width:270px) /*and (max-width:300px)*/{
   .menu{
-    left: 5vw;
+    left: 50vw;
   }
 }
