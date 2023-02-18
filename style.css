@@ -283,7 +283,7 @@ body{
       background: rgb(158, 183, 172);
       width: 8rem;
       height: auto;
-
+      transition: all 500ms;
     }
     #times{
       display: block;
