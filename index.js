@@ -2,8 +2,10 @@ let times = document.getElementById("times");
 let toggle=document.querySelector(".line");
 let nav=document.querySelector(".menu");
 let links=document.querySelectorAll(".menu > li");
+let submitForm=document.querySelector("#submit");
 
 
+// HIDING AND SHOWING MENU BAR
 toggle.addEventListener('click', show);
 times.addEventListener('click', hide);
 function show(){ 
@@ -18,3 +20,8 @@ function hide(){
 }
 
 
+// submitForm.style.color="black";
+submitForm.addEventListener("click", prevent);
+function prevent(el){
+    el.preventDefault();
+}
